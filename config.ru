@@ -11,8 +11,12 @@ $posts = [
 	]
 
 $users = [
-		User.new("First Name", "Last Name", "Male / Female"),
-		User.new("First Name", "Last Name", "Male / Female")
+		User.new("Joe", "Mancini", "27"),
+		User.new("Cait", "Piltover", "23"),
+		User.new("Steve", "Reid", "33"),
+		User.new("Sam", "Udoh", "23"),
+		User.new("Cyril", "Bojangles", "22"),
+		User.new("Osvaldo", "Caliari", "30")
 	]
 
 map "/users" do

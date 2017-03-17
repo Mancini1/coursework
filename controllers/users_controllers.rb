@@ -17,7 +17,7 @@ class UsersController < Sinatra::Base
 
 	#New
 	get "/new" do
-		"New"
+		erb :user
 	end
 
 	#Show
@@ -27,11 +27,9 @@ class UsersController < Sinatra::Base
 	@user = $users[id]
 	erb :usershow
 	end
-
+	
 	#Create
 	post "/" do
-		"Create"
-		erb :user
+		"CREATED!!!!!!"
 	end
-
 end
